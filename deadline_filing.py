@@ -4,7 +4,7 @@ from dateutil.relativedelta import relativedelta
 
 # Define type of IP and calculate filing deadline
 IP = input("Please enter type of patent (PCT, Direct, EP Validation): ")
-# Define the earliest priority date based on client input
+# Define the the deadline based on client input
 if IP == "PCT":
     priority = input("Please enter the earliest priority date YYYY-MM-DD: ")
     year, month, day = map(int, priority.split('-'))  # split response and map
