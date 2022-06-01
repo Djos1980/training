@@ -1,0 +1,25 @@
+# List of utility model Countries
+utility = [
+    'Albania', 'Antigua_Barbuda', 'Argentina', 'Armenia', 'Australia', 'Austria', 'Belarus', 'Belize', 'Botswana',
+    'Brazil', 'Bulgaria',
+    'Chile',
+    'China', 'Costa_Rica', 'Croatia', 'Czech_Republic', 'Denmark', 'Dominica', 'Dominican_Republic', 'Egypt',
+    'El_Salvador', 'Estonia',
+    'Ethiopia', 'Finland', 'France', 'Georgia', 'Germany', 'Ghana', 'Greece', 'Guatemala', 'Honduras', 'Hungary',
+    'Indonesia', 'Ireland', 'Italy',
+    'Japan', 'Kazakhstan', 'Kenya', 'Kyrgyzstan', 'Laos', 'Malaysia', 'Mexico', 'Mongolia', 'Mozambique', 'Oman',
+    'Namibia', 'Nicaragua',
+    'Panama',
+    'Paraguay', 'Peru', 'Philippines', 'Poland', 'Portugal', 'South_Korea', 'Moldova', 'Romania', 'Russian_Federation',
+    'Serbia', 'Slovakia',
+    'Slovenia',
+    'Spain', 'Swaziland', 'Tanzania', 'Thailand', 'Tonga', 'Trinidad_Tobago', 'Turkey', 'Uganda', 'Ukraine',
+    'United_Arab_Emirates',
+    'Uruguay',
+    'Uzbekistan', 'Vietnam', 'ARIPO', 'OAPI', 'Andean_Community']
+
+country = input("Please enter a country (use underscore for complex names): ")
+if country not in utility:
+    print(str(country) + " doesn't have a Utility Modle.")
+else:
+    print(str(country) + " has a Utility Modle.")
